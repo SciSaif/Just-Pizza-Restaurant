@@ -83,7 +83,7 @@ const product = () => {
 							</div>
 				
 				
-						<div className="mt-0 m-4 flex items-center w-80  justify-between">
+						<div className="sm:mt-0  m-4 flex items-center w-80  justify-between">
 							<div className="flex items-center space-x-1">
 							
 							<input className="focus:outline-none border p-1 w-24" defaultValue={qut} onChange={(e)=>setQut(parseInt(e.target.value))} type="number" />
