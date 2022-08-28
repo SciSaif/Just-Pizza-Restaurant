@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slider_wraper{
+    @apply flex  transition-all -z-10  duration-1000  items-center ;
+}
+
+.undone .checkedIcon,.inProgress .checkedIcon {
+    display: none;
+}
